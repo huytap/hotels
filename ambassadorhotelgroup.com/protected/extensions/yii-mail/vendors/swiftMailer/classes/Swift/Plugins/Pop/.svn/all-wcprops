@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/classes/Swift/Plugins/Pop
+END
+Pop3Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/classes/Swift/Plugins/Pop/Pop3Exception.php
+END
+Pop3Connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/classes/Swift/Plugins/Pop/Pop3Connection.php
+END

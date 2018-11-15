@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/dependency_maps
+END
+cache_deps.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/dependency_maps/cache_deps.php
+END
+mime_deps.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/dependency_maps/mime_deps.php
+END
+transport_deps.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/dependency_maps/transport_deps.php
+END

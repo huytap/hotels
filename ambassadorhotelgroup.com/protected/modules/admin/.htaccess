@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase http://admin.aristosaigonhotel.com/admin/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . http://admin.aristosaigonhotel.com/admin/index.php [L]

@@ -1,0 +1,5 @@
+.errorMessage{color:red;}
+.portlet{height: 35px;padding: 10px;}
+.portlet li{list-style-type: none;}
+.portlet li a{font-weight: bold;font-size: 14px;}
+.upload-file input[type=file]{z-index: 9999;width: 100%;}

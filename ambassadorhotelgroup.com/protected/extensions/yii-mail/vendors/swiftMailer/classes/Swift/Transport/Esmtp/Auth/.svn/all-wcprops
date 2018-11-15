@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/classes/Swift/Transport/Esmtp/Auth
+END
+CramMd5Authenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php
+END
+LoginAuthenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php
+END
+PlainAuthenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/16/trunk/gotxinh/protected/extensions/yii-mail/vendors/swiftMailer/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php
+END
