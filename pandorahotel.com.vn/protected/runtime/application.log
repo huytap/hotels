@@ -1,0 +1,1022 @@
+2018/11/02 10:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/02 10:55:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/02 10:57:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/02 10:58:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/02 10:58:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/02 10:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/02 10:59:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/02 11:11:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/js/bootstrap/bootstrap.min.js".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/admin/js...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/js/bootstrap/bootstrap.min.js
+HTTP_REFERER=http://pandorahotel.com.vn/admin
+---
+2018/11/02 11:11:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://pandorahotel.com.vn/admin
+---
+2018/11/02 11:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/loading.gif
+HTTP_REFERER=http://pandorahotel.com.vn/admin/booking/admin
+---
+2018/11/02 11:13:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/admin/js/bootstrap/bootstrap.min.js".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('themes/admin/js...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/js/bootstrap/bootstrap.min.js
+HTTP_REFERER=http://pandorahotel.com.vn/admin
+---
+2018/11/02 11:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/loading.gif
+HTTP_REFERER=http://pandorahotel.com.vn/admin/default/admin
+---
+2018/11/02 11:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/loading.gif
+HTTP_REFERER=http://pandorahotel.com.vn/admin/default/admin
+---
+2018/11/02 11:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/loading.gif
+HTTP_REFERER=http://pandorahotel.com.vn/admin/settings/admin
+---
+2018/11/02 11:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/loading.gif".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/loading....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/loading.gif
+HTTP_REFERER=http://pandorahotel.com.vn/admin/hotel/update?id=1
+---
+2018/11/02 18:19:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/02 19:58:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 07:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 09:01:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 09:52:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('en/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/about-us
+HTTP_REFERER=http://pandorahotel.com.vn/en/special-offers
+---
+2018/11/03 09:52:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('en/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/about-us
+HTTP_REFERER=http://pandorahotel.com.vn/en/about-us
+---
+2018/11/03 09:52:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('en/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/about-us
+HTTP_REFERER=http://pandorahotel.com.vn/en/about
+---
+2018/11/03 09:53:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('en/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/about-us
+HTTP_REFERER=http://pandorahotel.com.vn/en/about
+---
+2018/11/03 09:53:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('en/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/about-us
+HTTP_REFERER=http://pandorahotel.com.vn/en/about
+---
+2018/11/03 10:11:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('en/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/about-us
+HTTP_REFERER=http://pandorahotel.com.vn/en/about
+---
+2018/11/03 10:11:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('en/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/about-us
+HTTP_REFERER=http://pandorahotel.com.vn/en/about
+---
+2018/11/03 14:20:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:20:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:20:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:20:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:21:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:21:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:21:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:21:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 14:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 15:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 15:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 15:23:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 17:11:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 17:11:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 17:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 17:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 19:09:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/03 19:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/04 03:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+---
+2018/11/04 17:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('en/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/about-us
+HTTP_REFERER=http://pandorahotel.com.vn/
+---
+2018/11/05 01:34:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/05 06:19:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+---
+2018/11/05 08:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/05 09:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/05 14:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://pandorahotel.com.vn/en
+---
+2018/11/05 14:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/05 14:12:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2018/11/05 14:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2018/11/05 14:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/05 14:12:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/05 14:12:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2018/11/05 14:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/05 14:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+---
+2018/11/05 14:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/05 14:59:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/05 15:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/05 15:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/05 15:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/05 19:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request ".well-known/assetlinks.json".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('.well-known/ass...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/.well-known/assetlinks.json
+---
+2018/11/06 06:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+---
+2018/11/06 09:07:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/07 09:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+---
+2018/11/07 11:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vi/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('vi/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/vi/about-us
+---
+2018/11/07 19:51:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/en/contact
+---
+2018/11/07 19:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/en/rooms/classic-deluxe
+---
+2018/11/08 03:42:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "en/about-us".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('en/about-us')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/en/about-us
+---
+2018/11/08 11:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/08 14:03:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/08 23:54:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/08 23:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/?utm_source=zalo&utm_medium=zalo&utm_campaign=zalo&zarsrc=30
+---
+2018/11/08 23:56:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/en/contact
+---
+2018/11/08 23:57:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/?utm_source=zalo&utm_medium=zalo&utm_campaign=zalo&zarsrc=30
+---
+2018/11/09 12:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog2/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('blog2/wp-login....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog2/wp-login.php
+---
+2018/11/09 12:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog3/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('blog3/wp-login....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog3/wp-login.php
+---
+2018/11/09 12:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp1/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('wp1/wp-login.ph...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp1/wp-login.php
+---
+2018/11/09 12:38:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test3/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('test3/wp-login....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/test3/wp-login.php
+---
+2018/11/09 12:38:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wordpress2/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('wordpress2/wp-l...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/wordpress2/wp-login.php
+---
+2018/11/09 12:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp3/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('wp3/wp-login.ph...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp3/wp-login.php
+---
+2018/11/09 12:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('test/wp-login.p...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/wp-login.php
+---
+2018/11/09 12:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wordpress3/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('wordpress3/wp-l...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/wordpress3/wp-login.php
+---
+2018/11/09 12:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test1/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('test1/wp-login....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/test1/wp-login.php
+---
+2018/11/09 12:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wordpress/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('wordpress/wp-lo...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/wordpress/wp-login.php
+---
+2018/11/09 12:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('blog/wp-login.p...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog/wp-login.php
+---
+2018/11/09 12:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test2/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('test2/wp-login....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/test2/wp-login.php
+---
+2018/11/09 12:38:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2018/11/09 12:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog1/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('blog1/wp-login....')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/blog1/wp-login.php
+---
+2018/11/09 12:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wordpress1/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('wordpress1/wp-l...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/wordpress1/wp-login.php
+---
+2018/11/09 12:38:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp2/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('wp2/wp-login.ph...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp2/wp-login.php
+---
+2018/11/09 12:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp/wp-login.php".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('wp/wp-login.php')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp/wp-login.php
+---
+2018/11/09 18:29:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/09 19:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/09 20:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request ".well-known/assetlinks.json".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('.well-known/ass...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/.well-known/assetlinks.json
+---
+2018/11/09 22:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/09 22:57:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/10 01:53:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/10 02:23:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/10 05:47:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/10 05:54:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/10 07:55:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+---
+2018/11/10 09:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/10 10:34:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/10 16:37:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/10 16:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/10 20:05:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/11 00:35:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/11 05:48:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2018/11/11 07:44:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+---
+2018/11/11 22:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request ".well-known/assetlinks.json".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('.well-known/ass...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/.well-known/assetlinks.json
+---
+2018/11/12 22:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/13 10:45:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---
+2018/11/13 15:05:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bgbody.jpg".' in /home/pando909/public_html/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/pando909/public_html/yii/web/CWebApplication.php(141): CWebApplication->runController('images/bgbody.j...')
+#1 /home/pando909/public_html/yii/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/pando909/public_html/index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bgbody.jpg
+HTTP_REFERER=http://pandorahotel.com.vn/css/carino.css?v=003
+---

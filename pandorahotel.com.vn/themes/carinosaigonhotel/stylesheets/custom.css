@@ -1,0 +1,53 @@
+.ArCategory.Arrooms.details ul li {
+    width: 33.3333333%;
+    background: url(../images/icCheck.png) no-repeat 0 5px;
+    text-align: left;
+}
+.ArCategory.Arrooms.details ul {
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+}
+a.likmore{
+    color: #eea329!important;
+    margin-top: 15px;
+    background: url(../images/iclikmore.png) no-repeat right 7px!important;
+    padding-right: 12px;
+    display: inline-block!important;
+}
+#Arbottom .left-aBout .panelExecutive .panel .panel-body .lstFacilities.k-amen li{
+    background: transparent;
+    width: auto;
+    vertical-align: bottom;
+    padding: 10px 10px;
+    display: inline-block;
+    float: none;    
+}
+#Arbottom .left-aBout .panelExecutive .panel .panel-heading a.key-amenities{
+    background: transparent;
+}
+.key-amenities,
+#Arbottom .left-aBout .panelExecutive .panel .panel-body .lstFacilities.k-amen li,
+#Arbottom .left-aBout .panelExecutive .panel .panel-body .lstFacilities.k-amen{
+    text-align: center;
+}
+#CDSSCROLLINGRAVE{
+    margin: 0 auto!important;
+}
+#Arbottom .right-mAps{
+    padding: 0 30px;
+    text-align: center;
+    background: transparent;
+}
+#map{
+    margin: 20px auto;
+}
+#footer .mapstel .newsLetters .social a.lik_pin {
+    background-position: -140px 0;
+}
+#footer .mapstel .newsLetters .social a.lik_tw {
+    background-position: -35px 0;
+}
+#footer .mapstel .newsLetters .social a.lik_linkedin {
+    background-position: -175px 0;
+}

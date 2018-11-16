@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://aristosaigonhotel.com/sitemap.xml
+Disallow: /admin
