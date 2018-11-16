@@ -1,0 +1,1 @@
+<iframe id="CalendarRate" class="tb_main CalendarRate" name="CalendarRate" src="http://webkhachsan.net" width="100%" height="1000px" frameborder="0" scrolling="no" style="display: block;margin:0 auto;"></iframe>

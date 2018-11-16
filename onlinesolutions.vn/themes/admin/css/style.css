@@ -1,0 +1,26 @@
+.errorMessage{color:red;}
+.portlet{height: 35px;padding: 10px;}
+.portlet li{list-style-type: none;}
+.portlet li a{font-weight: bold;font-size: 14px;}
+.upload-file input[type=file]{z-index: 9999;width: 100%;}
+.dropdown-menu.notification{
+	width: 325px;
+}
+.dropdown-menu.notification>li>a{
+	font-size: 14px;
+}
+.notification-label {
+    width: 20px;
+    height: 20px;
+    padding: 5px 2px;
+    font-size: 11px;
+    top: 2px;
+    right: 2px;
+}
+.btn.btn-default.active{
+	background-color: #343e4e;
+	color: #fff;
+}
+table.detail-view th, table.detail-view td {
+    font-size: 15px!important;
+}
