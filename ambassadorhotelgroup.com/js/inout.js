@@ -26,21 +26,7 @@ $(document).ready(function(){
         responsive: true,
         controls: false
     });
-    $('#carouselRooms').carouFredSel({
-        responsive: true,
-        width: '100%',
-        scroll: 1,
-        auto: false,
-        prev: '#prev1',
-        next: '#next1', 
-        items: {
-            width: 480,
-            visible: {
-                min: 1,
-                max: 6
-            }
-        }
-    });
+    if($('#carouselFacilities').length)
     $('#carouselFacilities').carouFredSel({
         responsive: true,
         width: '100%',
@@ -52,13 +38,18 @@ $(document).ready(function(){
             width: 480,
             visible: {
                 min: 1,
-                max: 6
+                max: 16
             }
+        },
+        mousewheel: true,
+        swipe: {
+          onMouse: true,
+          onTouch: true
         }
     });
-    $('a[data-rel^=lightcase]').lightcase({
+    /*$('a[data-rel^=lightcase]').lightcase({
         swipe: true,
         showTitle: true,
         type: 'image'
-    });
+    });*/
 });

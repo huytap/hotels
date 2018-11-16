@@ -19,7 +19,7 @@
 <link type="text/css" href="<?php echo Yii::app()->baseUrl?>/css/jquery-ui.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl?>/css/bootstrap-datepicker.css" type="text/css" media="all">
 
-<link rel="stylesheet" href="<?php echo Yii::app()->baseUrl?>/css/clients.css" type="text/css" media="all">
+<link rel="stylesheet" href="<?php echo Yii::app()->baseUrl?>/css/clients.css?v=001" type="text/css" media="all">
 <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl?>/css/bxslider.css" type="text/css" media="all">
 <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl?>/css/filter.css" type="text/css" media="all">
 
@@ -133,6 +133,7 @@
 <script type="text/javascript" src="<?php echo Yii::app()->baseUrl?>/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->baseUrl?>/js/modernizr.custom.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->baseUrl?>/js/menu.jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo Yii::app()->baseUrl?>/js/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->baseUrl?>/js/onscroll.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->baseUrl?>/js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="<?php echo Yii::app()->baseUrl?>/js/jquery.carousel.js"></script>

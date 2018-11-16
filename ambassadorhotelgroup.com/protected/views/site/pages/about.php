@@ -24,17 +24,14 @@
 				$country = json_decode($hotel['country'], true);
 				$offer = json_decode($hotel['special_offer'],true);?>
 				<li <?php if($key==1) echo 'class="items-chan"';?>>
-					<div class="images-preview">
-						<ul class="preview-slider">
-							<li><img src="<?php echo Yii::app()->baseUrl?>/uploads/cover/<?php echo $hotel['cover_photo'];?>" alt="" /></li>
-						</ul>
+					<div class="images-preview"><img src="<?php echo Yii::app()->baseUrl?>/uploads/cover/<?php echo $hotel['cover_photo'];?>" alt="">
 					</div>
 					<div class="content-preview">
 						<h3><?php echo $hotel['name']?></h3>
 						<div class="dv-infors">
 							<p class="abr-map"><?php echo $add[$lang].', '.$city[$lang].', '.$country[$lang]?></p>
 							<p class="abr-fone"><?php echo Yii::t('lang', 'Tel')?>: <?php echo $hotel['tel']?></p>
-							<div class="abr-email">Email: <a href="mailto:<?php echo $hotel['email_sales']?>"><?php echo $hotel['email_sales']?></a></div>
+							<p class="abr-email">Email: <a href="mailto:<?php echo $hotel['email_sales']?>"><?php echo $hotel['email_sales']?></a></p>
 						</div>
 						<div class="dv-promotions">
 							<?php echo $offer[$lang];?>
