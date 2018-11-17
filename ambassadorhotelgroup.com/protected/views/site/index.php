@@ -1,4 +1,7 @@
-<?php $lang = Yii::app()->language;?>
+<?php 
+    $lang = Yii::app()->language;
+    $hotel_faci = json_decode(Settings::model()->getSetting('hotel_facilities'), true);
+?>
 
 <section class="sc-header-slide">
     <?php $this->widget('HeaderWidget');?>
@@ -26,19 +29,19 @@
                                 '.$short[$lang].'
                                 <span class="item-fi1">
                                     <img src="'.Yii::app()->baseUrl.'/images/ic-phone.png" alt="" title="Liên hệ"/>
-                                    Tư vấn & Hỗ trợ
+                                    '.Yii::t('lang', 'Hotline').'
                                     <font>'.$dth['hotline'].'</font>
                                 </span>
                                 
                                 <span class="item-fi2">
                                     <img src="'.Yii::app()->baseUrl.'/images/ic-air.png" alt="" title="Tân Sơn Nhất"/>
-                                    Đi Tân Sơn Nhất
-                                    <font>15 phút</font>
+                                    '.Yii::t('lang', 'tansonnhat_airport').'
+                                    <font>15 '.Yii::t('lang', 'minutes').'</font>
                                 </span>
                                 <span class="item-fi3">
                                     <img src="'.Yii::app()->baseUrl.'/images/ic-market.png" alt="" title="Chợ Bến Thành"/>
-                                    Cách chợ Bến Thành
-                                    <font>5 phút</font>
+                                    '.Yii::t('lang', 'Ben Thanh market').'
+                                    <font>5 '.Yii::t('lang', 'minutes').'</font>
                                 </span>
                             </div>
                             <div class="thumbs"><img src="'.Yii::app()->baseUrl.'/images/'.$dth['cover_photo'].'" alt="" title="'.$dth['name'].'"/></div>
@@ -52,17 +55,17 @@
                                 '.$short[$lang].'
                                 <span class="item-fi1">
                                     <img src="'.Yii::app()->baseUrl.'/images/ic-phone.png" alt="" title="Liên hệ"/>
-                                    Tư vấn & Hỗ trợ
+                                    '.Yii::t('lang', 'Hotline').'
                                     <font>'.$dth['hotline'].'</font>
                                 </span>
                                 <span class="item-fi2">
                                     <img src="'.Yii::app()->baseUrl.'/images/ic-sea.png" alt="" title="Bãi biển Vũng Tàu"/>
-                                    Cách biển Vũng Tàu
-                                    <font>5 phút</font>
+                                    '.Yii::t('lang', 'Vung Tau sea').'
+                                    <font>5 '.Yii::t('lang', 'minutes').'</font>
                                 </span>
                                 <span class="item-fi3">
                                     <img src="'.Yii::app()->baseUrl.'/images/ic-market1.png" alt="" title="Chợ Vũng Tàu"/>
-                                    Đến chợ Vũng Tàu
+                                    '.Yii::t('lang', 'Vung Tau market').'
                                     <font>0,5 km</font>
                                 </span>
                                 
@@ -78,8 +81,8 @@
 <section class="sc-facilities-group wow fadeInUp">
     <div class="container">
         <h3 class="tlePortlets">
-            <font><span>Tiện nghi</span> khách sạn</font>
-            <span>All rooms and suites are fully equipped with high quality facilities and amenities creating a life experience of utmost comfort and convenience.</span>
+            <?php echo Yii::t('lang', '<font><span>Hotel</span> facilities</font>');?>
+            <span><?php echo $hotel_faci[$lang];?></span>
         </h3>
         <div class="list_carousel responsive">
             <ul id="carouselFacilities">
@@ -122,9 +125,9 @@
                 ?>
             </div>
             <div class="col-xs-4 sendmail">
-                Đăng ký để nhận ưu đãi đặc biệt:
+                <?php echo Yii::t('lang', 'Register to special offer:');?>
                 <form class="form-inline subcribe-form" role="form">
-                    <input type="email" class="form-control" id="email" placeholder="Nhập email để đăng ký">
+                    <input type="email" class="form-control" id="email" placeholder="<?php echo Yii::t('lang','Enter your email');?>">
                     <button type="submit" class="btn btn-default"></button>
                 </form>
             </div>

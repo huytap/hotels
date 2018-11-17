@@ -33,7 +33,7 @@
                                 echo '<h4><font>'.$title[$lang].'</font>';
                                 echo strip_tags($des[$lang]);
                                 echo '</h4>';
-                                echo '<span class="likmores">'.Yii::t('lang', 'View Detail').'</span>';
+                                echo '<span class="likmores">'.Yii::t('lang', 'View Detail').'</span></a>';
                             echo '</li>';
                         }
                     ?>                               

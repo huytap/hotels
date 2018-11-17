@@ -81,7 +81,6 @@ class TripController extends AdminController{
 
     public function loadModel($id){
         $model = Trip::model()->findByPk($id);
-
         return $model;
     }
 }

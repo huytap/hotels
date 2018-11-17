@@ -10,10 +10,10 @@
 <section class="sc-destinations wow fadeInUp">
     <div class="container">
         <h3 class="tlePortlets">
-            <font><?php echo Yii::t('lang', 'WHAT\'S NEAR US IN');?></font>
+            <font><?php echo Yii::t('lang', 'Tours');?></font>
             <?php
-                $content = json_decode(Settings::model()->getSetting('destination', $getHotel['id']), true);
-                echo $content[$lang];
+                //$content = json_decode(Settings::model()->getSetting('tours', $getHotel['id']), true);
+                //echo $content[$lang];
             ?>
         </h3>
         <div class="row">

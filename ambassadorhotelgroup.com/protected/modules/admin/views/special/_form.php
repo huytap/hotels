@@ -18,28 +18,24 @@ $form = $this->beginWidget('CActiveForm', array(
                 <?php echo $form->textField($model, 'display_order', array('class' => 'form-control input-sm', 'placeholder' => 'Display order'));?>
                 <?php echo $form->error($model, 'display_order'); ?>
             </div>
-            <div class="col-sm-6 p-none-r form-group">
+            
+            <!-- <div class="col-sm-6 p-none-r form-group">
                 <?php echo $form->label($model, 'type');?>
                 <?php echo $form->dropDownlist($model, "type", array(''=>'-----Type-----') + Yii::app()->params['special'], array('class'=>'form-control')); ?>
                 <?php echo $form->error($model, 'type'); ?>
-            </div>
+            </div> -->
             <div class="clear"></div>
             <?php 
             $display='';
-            if($model['type']!=='accommodation-offer'){
+            /*if($model['type']!=='accommodation-offer'){
                 $display='style="display:none;"';
-            }?>
-            <div class="col-sm-6 p-none-r form-group roomtype" <?php echo $display;?>>
-                <?php echo $form->label($model, 'promotion_id');?>
-                <?php echo $form->dropDownlist($model, "promotion_id", array(''=>'-----Promotion-----') + Promotion::model()->getList3(), array('class'=>'form-control')); ?>
-                <?php echo $form->error($model, 'promotion_id'); ?>
-            </div>
-            
-            <div class="col-sm-6 p-none-r form-group roomtype" <?php echo $display;?>>
+            }*/
+            ?>
+            <!-- <div class="col-sm-6 p-none-r form-group roomtype" <?php echo $display;?>>
                 <?php echo $form->label($model, 'roomtype_id');?>
                 <?php echo $form->dropDownlist($model, "roomtype_id", array(''=>'All') + Roomtype::model()->getList2(0), array('class'=>'form-control')); ?>
                 <?php echo $form->error($model, 'roomtype_id'); ?>
-            </div>
+            </div> -->
             <div class="col-sm-3 p-none-l form-group">
                 <?php echo $form->label($model, 'cover_photo');?>
                 <?php echo $form->fileField($model, "cover_photo", array('class' => 'form-control')); ?>

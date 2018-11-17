@@ -8,7 +8,7 @@
         <h3 class="tlePortlets">
             <font><?php echo Yii::t('lang', 'Rooms & Suites');?></font>
             <?php
-                $content = json_decode(Settings::model()->getSetting('room'), true);
+                $content = json_decode(Settings::model()->getSetting('room_des', $getHotel['id']), true);
                 echo $content[$lang];
             ?>
         </h3>

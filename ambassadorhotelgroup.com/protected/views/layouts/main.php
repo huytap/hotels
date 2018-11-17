@@ -35,29 +35,36 @@
 <body>
 	<?php echo $content;?>
 	<?php
-	if(isset($_GET['hotel'])){?>
+	if(isset($_GET['hotel'])){
+		$hotel = Hotel::model()->getHotelBySlug($_GET['slug']);?>
+		<style type="text/css">
+			.tripadvisor .bx-controls.bx-has-pager{
+				padding-top: 20px;
+			}
+		</style>
 		<section class="sc-feedbacks-group">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-5 sendmail">
-						Đăng ký để nhận ưu đãi đặc biệt:
-						<form class="form-inline subcribe-form" role="form">
-							<input type="email" class="form-control" id="email" placeholder="Nhập email để đăng ký">
-							<button type="submit" class="btn btn-default"></button>
-						</form>
+						<?php echo Yii::t('lang', 'Register to special offer:');?>
+		                <form class="form-inline subcribe-form" role="form">
+		                    <input type="email" class="form-control" id="email" placeholder="<?php echo Yii::t('lang','Enter your email');?>">
+		                    <button type="submit" class="btn btn-default"></button>
+		                </form>
 					</div>
 					<div class="col-xs-7 tripadvisor">
-						<h2>Đánh giá từ Khách hàng</h2>
+						<h2><?php echo Yii::t('lang', 'Review from customers');?></h2>
+	            		<?php
+	            		$trips = Trip::model()->getList($hotel['id']);
+	            		if($trips && count($trips->getData())>0){?>
+
 						<ul class="bxslider-trip">
-							<li>
-								<p>The rooms are spacious, clean with great reviews over the city. Good speed wifi, TV. The food is fantastic... And plenty of variety. The roof top garden is amazing at night. The staff are helpful and pleasant. The common area is lively and cozy!</p>
-								<b>From McKaye46, Liverpool, United Kingdom</b>
-							</li>
-							<li>
-								<p>This was my second stay at the hotel. The reason i chose to came back was the location and the service. The hotel is well located near benh thanh market which is just 5min walk. I sign up the 1 day Mekong Delta tour arranged by the hotel. The tour is just AWESOME! it worth every cents. The employees of the hotel are friendly and are very prompt on your request.</p>
-								<b>From TerenceeOng, Singapore</b>
-							</li>
+							<?php
+							foreach($trips->getData() as $kt=>$trip){
+								echo '<li>'.$trip['comment'].$trip['author'].'</li>';
+							}?>
 						</ul>
+						<?php }?>
 					</div>
 				</div>
 			</div>
@@ -68,7 +75,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-4 col-first">
-				<img src="<?php echo Yii::app()->baseUrl?>/images/Ambassador_group_footer.png" alt="" />
+				<a href="<?php echo Yii::app()->baseUrl?>/"><img src="<?php echo Yii::app()->baseUrl?>/images/Ambassador_group_footer.png" alt="" /></a>
 				<div class="txtcopyright">
 					Copyright © <?php echo date('Y');?> <h1>Ambassador Hotel Group</h1>.<br>
 					All rights reversed.
@@ -96,8 +103,8 @@
 					<h2><?php echo Yii::t('lang', 'Services');?></h2>
 					<li><a href="<?php echo Yii::app()->params['link'].$lang?>/special-offers.html"><?php echo Yii::t('lang', 'Special Offers');?></a></li>
 					<!-- <li><a href="<?php echo Yii::app()->params['link'].$lang?>/rooms"><?php echo Yii::t('lang', 'Rooms & Suites');?></a></li> -->
-					<li><a href="<?php echo Yii::app()->params['link'].$lang?>/services/restaurant.html"><?php echo Yii::t('lang', 'Restaurant');?></a></li>
-					<li><a href="<?php echo Yii::app()->params['link'].$lang?>/services/meeting--conference-rooms.html"><?php echo Yii::t('lang', 'Meeting & Conference');?></a></li>
+					<li><a href="<?php echo Yii::app()->params['link'].$lang?>/services.html"><?php echo Yii::t('lang', 'Services & Facilities');?></a></li>
+					<li><a href="<?php echo Yii::app()->params['link'].$lang?>/tours.html"><?php echo Yii::t('lang', 'Tours');?></a></li>
 					<!--<li><a href="<?php //echo Yii::app()->params['link'].$lang?>/services/spa"><?php //echo Yii::t('lang', 'Spa');?></a></li>-->
 				</ul>
 			</div>

@@ -28,7 +28,7 @@
                         echo '</div>';
                         echo '<h3>'.$title[$lang].'</h3>';
                         echo $des[$lang];
-                        /*echo '<a href="mailto:'.$hotel['email_sales'].'"><span class="likmores">'.Yii::t('lang', 'Book now').'</span></a>';*/
+                        echo '<span class="likmores">'.Yii::t('lang', 'View Detail').'</span>';
                     echo '</a></li>';
                 }
             ?>              

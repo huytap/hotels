@@ -1,24 +1,25 @@
 <?php
 
 /**
- * This is the model class for table "email_offers".
+ * This is the model class for table "trips".
  *
- * The followings are the available columns in table 'email_offers':
- * @property integer $email
- * @property string $type
+ * The followings are the available columns in table 'trips':
+ * @property integer $id
+ * @property string $comment
+ * @property string $author
+ * @property integer $hotel_id
  * @property string $added_date
- * @property integer $give
- * @property integer $hotel
- * @property integer $confirmed
+ * @property string $updated_date
+ * @property integer $updated_by
  */
-class Contact extends CActiveRecord
+class Trip extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
-	 */	
+	 */
 	public function tableName()
 	{
-		return 'email_offers';
+		return 'trips';
 	}
 
 	/**
@@ -29,12 +30,12 @@ class Contact extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('email, type, added_date, give, hotel, confirmed', 'required'),
-			array('email, give, hotel, confirmed', 'numerical', 'integerOnly'=>true),
-			array('type', 'length', 'max'=>7),
+			array('comment, author', 'required'),
+			array('hotel_id, status, updated_by, display_order', 'numerical', 'integerOnly'=>true),
+			array('author', 'length', 'max'=>64),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('email, type, added_date, give, hotel, confirmed', 'safe', 'on'=>'search'),
+			array('id, comment, author, hotel_id, added_date, updated_date, updated_by', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -46,7 +47,6 @@ class Contact extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'hotels'=>array(self::BELONGS_TO, 'Hotel', 'hotel')
 		);
 	}
 
@@ -56,12 +56,13 @@ class Contact extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'email' => 'Email',
-			'type' => 'Type',
+			'id' => 'ID',
+			'comment' => 'Comment',
+			'author' => 'Author',
+			'hotel_id' => 'Hotel',
 			'added_date' => 'Added Date',
-			'give' => 'Give',
-			'hotel' => 'Hotel',
-			'confirmed' => 'Confirmed',
+			'updated_date' => 'Updated Date',
+			'updated_by' => 'Updated By',
 		);
 	}
 
@@ -83,15 +84,18 @@ class Contact extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('email',$this->email);
-		$criteria->compare('type',$this->type,true);
+		$criteria->compare('hotel_id',Yii::app()->session['hotel'], false, 'AND');
+		$criteria->compare('id',$this->id);
+		$criteria->compare('comment',$this->comment,true);
+		$criteria->compare('author',$this->author,true);
+		
 		$criteria->compare('added_date',$this->added_date,true);
-		$criteria->compare('give',$this->give);
-		$criteria->compare('hotel',$this->hotel);
-		$criteria->compare('confirmed',$this->confirmed);
+		$criteria->compare('updated_date',$this->updated_date,true);
+		$criteria->compare('updated_by',$this->updated_by);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+			'sort'=>array('defaultOrder' => 'display_order DESC')
 		));
 	}
 
@@ -99,10 +103,21 @@ class Contact extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Contact the static model class
+	 * @return Trip the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
+	}
+
+	public function getList($hotel){
+		$criteria = new CDbCriteria;
+		$criteria->compare('hotel_id', $hotel, false);
+		$criteria->compare('status', 0, false);
+		$data = new CActiveDataProvider($this, array(
+			'criteria' => $criteria,
+			'sort' => array('defaultOrder' => 'display_order')));
+		$data->setPagination(false);
+		return $data;
 	}
 }

@@ -20,13 +20,4 @@ class DestinationController extends Controller{
 			$this->render('../site/error');
 		}*/
 	}
-
-	/*public function actionOther(){
-		try{
-			$model = Cms::model()->getList('restaurant', '');
-			$this->render('other', compact('model'));
-		}catch(Exception $ec){
-			$this->render('../site/error');
-		}	
-	}*/
 }

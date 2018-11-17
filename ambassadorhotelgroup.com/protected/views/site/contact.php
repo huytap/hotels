@@ -81,7 +81,40 @@
                     <div id="map"></div>                        
                     <?php 
                         Yii::app()->clientScript->registerScriptFile('https://maps.googleapis.com/maps/api/js?key=AIzaSyDUsJ9tg6_qAszwcsYqr6yrQV-MguhaplU&v=3.exp&sensor=false', CClientScript::POS_END);
-                        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/js/maps.js', CClientScript::POS_END);
+                        Yii::app()->clientScript->registerScript('map', "
+                            var MY_MAPTYPE_ID = 'custom_style';
+                            function initialize() {
+                                    var myLatlng = new google.maps.LatLng(".$hotel["lat"].",".$hotel['lng'].");
+                                    var imagePath = '".Yii::app()->baseUrl."/images/iconmaps.png'
+                                    var featureOpts = [ { 'stylers': [ { 'saturation': -100 }, {'lightness': -5 } ] } ];
+                                    var mapOptions = {
+                                        zoom: 16,
+                                        center: myLatlng,
+                                        mapTypeId: MY_MAPTYPE_ID                
+                                    }
+
+                                var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+                                var customMapType = new google.maps.StyledMapType(featureOpts);
+                                    map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+
+                                
+
+                                //Add Marker
+                                var marker = new google.maps.Marker({
+                                    position: myLatlng,
+                                    map: map,
+                                    icon: imagePath
+                                });
+
+                                //Resize Function
+                                google.maps.event.addDomListener(window, 'resize', function() {
+                                    var center = map.getCenter();
+                                    google.maps.event.trigger(map, 'resize');
+                                    map.setCenter(center);
+                                });
+                            }
+
+                            google.maps.event.addDomListener(window, 'load', initialize);",CClientScript::POS_END);
                     ?>
                 </div>
             </div>

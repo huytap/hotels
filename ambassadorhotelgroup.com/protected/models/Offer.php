@@ -132,9 +132,9 @@ class Offer extends CActiveRecord
 		return $dataProvider;
 	}
 
-	public function getOther($slug){
+	public function getOther($slug, $hotel_id){
 		$criteria = new CDbCriteria;
-		$criteria->addCondition('slug!="'.$slug.'"');
+		$criteria->addCondition('slug!="'.$slug.'" AND `hotel_id`="'.$hotel_id.'"');
 		$criteria->compare('status', 0, false);
 		$dataProvider = new CActiveDataProvider($this, array(
 			'criteria' => $criteria,

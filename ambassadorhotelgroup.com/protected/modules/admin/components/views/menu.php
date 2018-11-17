@@ -29,21 +29,10 @@
         </div><!-- /search-block -->
         <div class="main-menu">
             <ul>
-                <!-- <li>
-                    <a href="<?php //echo Yii::app()->createUrl('admin/booking/admin');?>">
-                        <span class="menu-icon">
-                            <i class="fa fa-shopping-cart fa-lg"></i> 
-                        </span>
-                        <span class="text">
-                            Bookings Control
-                        </span>
-                        <span class="menu-hover"></span>
-                    </a>
-                </li> -->
                 <li class>
                     <a href="<?php echo Yii::app()->baseUrl?>/admin/hotel/admin">
                         <span class="menu-icon">
-                            <i class="fa fa-tag fa-lg"></i> 
+                            <i class="fa fa-th-large"></i> 
                         </span>
                         <span class="text">
                             Hotel Control
@@ -56,39 +45,29 @@
                     <li>
                         <a href="<?php echo Yii::app()->createUrl('admin/roomtype/admin');?>">
                             <span class="menu-icon">
-                                <i class="fa fa-money fa-lg"></i> 
+                                <i class="fa fa-th-large"></i> 
                             </span>
                             <span class="text">
                                 Roomtype
                             </span>
                             <span class="menu-hover"></span>
                         </a>
-                        <!-- <ul class="submenu">
-                            <li><a href="<?php echo Yii::app()->createUrl('admin/roomtype/admin');?>"><span class="submenu-label">Roomtype</span></a></li>
-                            <li><a href="<?php echo Yii::app()->createUrl('admin/room/admin');?>"><span class="submenu-label">Room control</span></a></li>
-                            <li><a href="<?php echo Yii::app()->createUrl('admin/rate/admin');?>"><span class="submenu-label">Rate Control</span></a></li>
-                            <li><a href="<?php echo Yii::app()->createUrl('admin/promotion/admin');?>"><span class="submenu-label">Promotion Control</span></a></li>
-                        </ul> -->
                     </li>
                     <li>
                         <a href="<?php echo Yii::app()->createUrl('admin/cms/admin');?>">
                             <span class="menu-icon">
-                                <i class="fa fa-pencil fa-lg"></i> 
+                                <i class="fa fa-th-large"></i> 
                             </span>
                             <span class="text">
                                 Content Control
                             </span>
                             <span class="menu-hover"></span>
                         </a>
-                        <!-- <ul class="submenu">
-                            <li><a href="<?php //echo Yii::app()->createUrl('admin/cms/admin');?>"><span class="submenu-label">CMS Control</span></a></li>
-                            <li><a href="<?php //echo Yii::app()->createUrl('admin/tour/admin');?>"><span class="submenu-label">Tours Control</span></a></li>
-                        </ul> -->
                     </li>
                     <li>
                         <a href="<?php echo Yii::app()->createUrl('admin/special/admin');?>">
                             <span class="menu-icon">
-                                <i class="fa fa-pencil fa-lg"></i> 
+                                <i class="fa fa-th-large"></i> 
                             </span>
                             <span class="text">
                                 Sepcial Offers
@@ -96,38 +75,23 @@
                             <span class="menu-hover"></span>
                         </a>
                     </li>
-                    <!--<li class="openable">
-                        <a href="#">
+                    <li>
+                        <a href="<?php echo Yii::app()->createUrl('admin/trip/admin');?>">
                             <span class="menu-icon">
-                                <i class="fa fa-pencil fa-lg"></i> 
+                                <i class="fa fa-th-large"></i> 
                             </span>
                             <span class="text">
-                                Spa Control
+                                Trip Advisor
                             </span>
                             <span class="menu-hover"></span>
                         </a>
-                        <ul class="submenu">                            
-                            <li><a href="<?php echo Yii::app()->createUrl('admin/categoryspa/admin');?>"><span class="submenu-label">Spa Categories</span></a></li>
-                            <li><a href="<?php echo Yii::app()->createUrl('admin/itemspa/admin');?>"><span class="submenu-label">Spa Items</span></a></li>
-                        </ul>
-                    </li>-->
-                    <!-- <li>
-                        <a href="<?php echo Yii::app()->createUrl('admin/gallery/admin');?>">
-                            <span class="menu-icon">
-                                <i class="fa fa-picture-o fa-lg"></i> 
-                            </span>
-                            <span class="text">
-                                Gallery
-                            </span>
-                            <span class="menu-hover"></span>
-                        </a>
-                    </li> -->
+                    </li>
                 <?php
                 }?>
                 <li class="openable">
                     <a href="#">
                         <span class="menu-icon">
-                            <i class="fa fa-picture-o fa-lg"></i> 
+                            <i class="fa fa-th-large"></i> 
                         </span>
                         <span class="text">
                             Gallery
@@ -143,7 +107,7 @@
                 <li>
                     <a href="<?php echo Yii::app()->createUrl('admin/settings/admin');?>">
                         <span class="menu-icon">
-                            <i class="fa fa-cog fa-lg"></i> 
+                            <i class="fa fa-th-large"></i> 
                         </span>
                         <span class="text">
                             Settings

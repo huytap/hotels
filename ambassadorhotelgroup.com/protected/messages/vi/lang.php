@@ -1,6 +1,13 @@
 <?php
 
 return array(
+    'Vung Tau market' => 'Đến chợ Vũng Tàu',
+    'Vung Tau sea' => 'Cách biển Vũng Tàu',
+    'Ben Thanh market' => 'Cách chợ Bến Thành',
+    'Review from customers' => 'Đánh giá từ Khách hàng',
+    'Enter your email' => 'Nhập email để đăng ký',
+    'Register to special offer:' => 'Đăng ký để nhận ưu đãi đặc biệt:',
+    '<font><span>Hotel</span> facilities</font>' => '<font><span>Tiện nghi</span> khách sạn</font>',
     'About Ambassador' => 'Về Ambassador',
     '<font><span>Special</span> offers</font>' => '<font><span>Ưu đãi</span> đặc biệt</font>',
     'Our hotels' => 'Chọn khách sạn',
@@ -285,7 +292,7 @@ return array(
     'price' => 'Giá',
     'seat_car' => 'Số ghế',
     'enhancement' => 'Enhancements (Optional)',
-    'tansonnhat_airport' => 'sân bay Tân Sơn Nhất',
+    'tansonnhat_airport' => 'Sân bay Tân Sơn Nhất',
     'recruiment' => 'Tuyển dụng',
     'sitemap' => 'Sơ đồ trang web',
     'number_room' => 'Số lượng phòng',

@@ -41,17 +41,19 @@ class SiteController extends Controller{
 		}
 	}
 
-	public function actionContact($cms){
-		try{
+	public function actionContact($hotel){
+		//try{
 			$model=new ContactForm;
-			$hotel = Hotel::model()->find();
+			$hotel = Hotel::model()->getHotelBySlug($hotel);
 			if(isset($_POST['ContactForm'])){
 				$model->attributes=$_POST['ContactForm'];
 				if($model->validate()){
-		            $subject = 'Contact from website www.pandora.com.vn - ['.$model['first_name'].' ' .$model['last_name'].']';
+					$model->logo = $hotel['logo1'];
+		            $subject = 'Contact from website ambassadorhotelgroup.com - ['.$model['first_name'].' ' .$model['last_name'].']';
 		            $content = '';
 		            $full_name = $model->first_name.' '.$model->last_name;
-		            $arr_to=array($hotel['email_sales']=>$hotel['email_sales']);
+		            //$arr_to=array($hotel['email_sales']=>$hotel['email_sales']);
+		            $arr_to = array('nghuytap@gmail.com', 'nghuytap@gmail.com');
 		            $reply = $model['email'];
 		            $output='';
 		            $template_file='templates/contact.htm';
@@ -65,9 +67,9 @@ class SiteController extends Controller{
 				}
 			}
 			$this->render('contact',array('model'=>$model, 'hotel' => $hotel));
-		}catch(Exception $ex){
+		/*}catch(Exception $ex){
 			$this->render('../site/error');
-		}
+		}*/
 	}
 
 	public function actionAbout($hotel=''){
