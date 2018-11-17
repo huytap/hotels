@@ -20,9 +20,11 @@ class SiteController extends Controller{
 	public function actionIndex($hotel=''){
 			if($hotel){
 				$getHotel = Hotel::model()->getHotelBySlug($hotel);
+				$this->pageTitle = $getHotel['name'];
 				$rooms = Roomtype::model()->getList(0, $getHotel['id']);
 				$this->render('index_hotel', compact(array('getHotel', 'rooms')));
 			}else{
+				$this->pageTitle = 'Ambassador Hotel Group';
 				$hotels = Hotel::model()->getList($hotel);
 				$rooms = Roomtype::model()->getList(0, $getHotel['id']);
 				//$slider = Gallery::model()->getList(1,$getHotel['id']);
@@ -45,6 +47,7 @@ class SiteController extends Controller{
 		//try{
 			$model=new ContactForm;
 			$hotel = Hotel::model()->getHotelBySlug($hotel);
+			$this->pageTitle = Yii::t('lang', 'Contact') .' | ' .$hotel['name'];
 			if(isset($_POST['ContactForm'])){
 				$model->attributes=$_POST['ContactForm'];
 				if($model->validate()){
@@ -75,8 +78,10 @@ class SiteController extends Controller{
 	public function actionAbout($hotel=''){
 		if($hotel){
 			$getHotel = Hotel::model()->getHotelBySlug($hotel);
+			$this->pageTitle = Yii::t('lang', 'About us') .' | ' .$getHotel['name'];
 			$this->render('pages/about_hotel', compact('getHotel'));
 		}else{
+			$this->pageTitle = Yii::t('lang', 'About us') .' | Ambassador Hotel Group';
 			$hotels = Hotel::model()->getList();
 			$this->render('pages/about', compact('hotels'));
 		}

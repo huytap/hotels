@@ -9,17 +9,13 @@
         <h3 class="tlePortlets">
             <font><?php echo Yii::t('lang', 'Services & Facilities');?></font>
             <?php
-                $content = json_decode(Settings::model()->getSetting('services'), true);
+            if(isset($_GET['hotel']))
+                $content = json_decode(Settings::model()->getSetting('facilites', $getHotel['id']), true);
+            else
+                $content = json_decode(Settings::model()->getSetting('hotel_facilities'), true);
                 echo $content[$lang];
             ?>
         </h3>
-
-        <!-- <div class="row">
-            <div class="col-sm-12 col-xs-12 col-services">
-                <h3 class="tleservices">Information</h3>
-                Deluxe rooms measured on …… square meters has a wide window with night curtain, a nice view open up to the city street, a LCD TV, tea & coffee makers, a safety box, hair dryer, hot & cold shower and a bathtub.
-            </div>
-        </div> -->
     </div>
 </section>
 <section class="sc-specials-page wow fadeInUp">

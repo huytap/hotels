@@ -21,7 +21,7 @@
                 foreach($model->getData() as $key => $data){
                     $title = json_decode($data['title'], true);
                     $des = json_decode($data['short_description'], true);
-                    echo '<li><a href="'.Yii::app()->baseUrl.'/'.$lang.'/'.$getHotel['slug'].'/special-offers/'.$data['slug'].'.html">';
+                    echo '<li><a href="'.Yii::app()->baseUrl.'/'.$lang.'/'.$data->hotel->slug.'/special-offers/'.$data['slug'].'.html">';
                         echo '<div class="imthumbs">';
                         echo '<img src="'.Yii::app()->baseUrl.'/uploads/cover/'.$data['cover_photo'].'" class="img-responsive">';
                         echo '<span class="tag">'.$data->hotel->name.'</span>';
